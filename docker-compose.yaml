@@ -20,7 +20,7 @@ services:
     networks:
       - eliza-network
   elizaos:
-    image: ${DOCKER_IMAGE}
+    image: ${DOCKER_IMAGE:-brucexueth/mach-mom:v0.0.1}
     container_name: elizaos
     environment:
       # Core AI providers (at least one required)
