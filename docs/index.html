@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mach Mom · Demo</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle at top, #f4f7ff, #e3e9fb 40%, #d0d8f2);
+        color: #1b1b1f;
+      }
+      main {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 3rem 4rem;
+        box-shadow: 0 30px 60px rgba(15, 23, 42, 0.15);
+        text-align: center;
+        max-width: 640px;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        letter-spacing: 0.05em;
+      }
+      p {
+        line-height: 1.6;
+        font-size: 1.1rem;
+        color: #374151;
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #6b7280;
+      }
+      .cta {
+        margin-top: 2rem;
+        display: inline-block;
+        padding: 0.9rem 1.8rem;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+        background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        box-shadow: 0 12px 30px rgba(99, 102, 241, 0.3);
+      }
+      footer {
+        margin-top: 2rem;
+        font-size: 0.85rem;
+        color: #6b7280;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="badge">Mach Mom · Live Agent Demo</div>
+      <h1>AI Agents, Running on-chain</h1>
+      <p>
+        This GitHub Pages site is a lightweight preview of the Mach Mom project. It
+        links the public domain <strong>mach.mom</strong> to the latest main branch
+        so we can share updates, release notes, and upcoming experiments without
+        shipping the full agent stack.
+      </p>
+      <p>
+        Keep an eye on this space — as soon as our ElizaOS deployment hits production,
+        this page will surface real-time status, conversations, and membase-backed
+        memory snapshots.
+      </p>
+      <a class="cta" href="https://github.com/harryyu/mach-mom">Explore the code</a>
+      <footer>Built with ❤︎ by the Mach collective</footer>
+    </main>
+  </body>
+</html>
